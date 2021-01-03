@@ -1,0 +1,13 @@
+.search-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(217, 217, 217);
+    width: 45%;
+    margin-left: 28%;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "debug": "node --inspect src/server.js"
+  },
+  "author": "Baranov E",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "axios": "^0.21.1",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "next": "^10.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

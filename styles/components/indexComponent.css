@@ -1,0 +1,19 @@
+.indexComponent-div-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.indexComponent-block-search-videoplayer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background: rgb(227, 228, 224);
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.indexComponent-sidebar {
+    display: flex;
+}
